@@ -1,14 +1,102 @@
 {
-  "greeting": [
+  "greetings": [
     {"input": "hello", "response": "Hi there! How can I help you today?"},
     {"input": "hi", "response": "Hello! What can I do for you?"},
-    {"input": "hey", "response": "Hey there! How’s it going?"}
+    {"input": "hey", "response": "Hey there! How’s it going?"},
+    {"input": "good morning", "response": "Good morning! How are you today?"},
+    {"input": "good evening", "response": "Good evening! What's on your mind?"},
+    {"input": "howdy", "response": "Howdy! How can I assist you?"},
+    {"input": "yo", "response": "Yo! What's up?"},
+    {"input": "greetings", "response": "Greetings, traveler! What brings you here today?"},
+    {"input": "sup", "response": "Sup! What’s going on?"},
+    {"input": "hiya", "response": "Hiya! How’s everything going?"}
+  ],
+  "farewells": [
+    {"input": "goodbye", "response": "Goodbye! Have a great day ahead!"},
+    {"input": "bye", "response": "See you later! Take care!"},
+    {"input": "farewell", "response": "Farewell, my friend! Until we meet again."},
+    {"input": "see you", "response": "See you soon! Stay safe!"},
+    {"input": "take care", "response": "Take care! Hope to talk to you again soon."},
+    {"input": "catch you later", "response": "Catch you later! Don't be a stranger!"},
+    {"input": "later", "response": "Later, alligator! Have a good one!"}
   ],
   "how_are_you": [
     {"input": "how are you", "response": "I'm doing great, thanks for asking! 😊"},
-    {"input": "how's it going", "response": "Everything's awesome! How about you?"}
+    {"input": "how's it going", "response": "Everything's awesome! How about you?"},
+    {"input": "how are you doing", "response": "I'm feeling great! What about you?"},
+    {"input": "how are you today", "response": "I'm doing wonderful! What can I do for you today?"},
+    {"input": "how's everything", "response": "All systems are go! How's everything on your end?"}
+  ],
+  "jokes": [
+    {"input": "tell me a joke", "response": "Why don’t skeletons fight each other? They don’t have the guts!"},
+    {"input": "make me laugh", "response": "Why did the scarecrow win an award? Because he was outstanding in his field!"},
+    {"input": "joke", "response": "What do you call fake spaghetti? An impasta!"},
+    {"input": "tell me a funny joke", "response": "Why don’t eggs tell jokes? Because they might crack up!"},
+    {"input": "got any jokes", "response": "I’ve got one! Why was the math book sad? Because it had too many problems!"},
+    {"input": "lighten up the mood", "response": "Why don’t skeletons fight each other? They don’t have the guts!"},
+    {"input": "funny", "response": "Why was the broom late? It swept in!"}
+  ],
+  "weather": [
+    {"input": "what's the weather like", "response": "I wish I could tell you, but I'm not connected to the weather service. Check your local forecast!"},
+    {"input": "is it raining", "response": "I can't check the weather right now, but maybe take a peek outside?"},
+    {"input": "is it sunny", "response": "I can't check, but I hope it's sunny wherever you are!"},
+    {"input": "how's the weather", "response": "I'm not sure about the weather, but I hope it's nice and cozy where you are!"},
+    {"input": "what's the temperature", "response": "I can't check the temperature, but I hope it's comfortable!"},
+    {"input": "any storms today", "response": "I can't predict storms, but stay safe if you're expecting one!"}
+  ],
+  "motivational": [
+    {"input": "give me a quote", "response": "“The only way to do great work is to love what you do.” – Steve Jobs"},
+    {"input": "motivational quote", "response": "“Success is not final, failure is not fatal: It is the courage to continue that counts.” – Winston Churchill"},
+    {"input": "inspire me", "response": "“Believe you can and you're halfway there.” – Theodore Roosevelt"},
+    {"input": "i need motivation", "response": "“The best time to plant a tree was 20 years ago. The second best time is now.” – Chinese Proverb"},
+    {"input": "keep going", "response": "“It always seems impossible until it's done.” – Nelson Mandela"},
+    {"input": "i'm feeling down", "response": "“You are braver than you believe, stronger than you seem, and smarter than you think.” – A.A. Milne"}
+  ],
+  "thank_you": [
+    {"input": "thank you", "response": "You're welcome! Glad I could help."},
+    {"input": "thanks", "response": "No problem! Let me know if you need anything else."},
+    {"input": "thanks a lot", "response": "You're very welcome! I’m happy to assist you."},
+    {"input": "thank you so much", "response": "You're very welcome! It was my pleasure."},
+    {"input": "I appreciate it", "response": "Anytime! I’m here to help."}
+  ],
+  "random_queries": [
+    {"input": "what's your name", "response": "I'm Roger, your friendly chatbot! How can I assist you today?"},
+    {"input": "who are you", "response": "I'm Roger, a chatbot created to chat with you and make your day better!"},
+    {"input": "what do you do", "response": "I’m here to chat, tell jokes, answer questions, and help with whatever you need!"},
+    {"input": "tell me something interesting", "response": "Did you know? Honey never spoils! Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old."},
+    {"input": "did you know", "response": "Did you know that octopuses have three hearts? One pumps blood through their body, and two pump it to the gills!"}
+  ],
+  "compliments": [
+    {"input": "you are amazing", "response": "Thank you! You're pretty awesome too! 😊"},
+    {"input": "you're great", "response": "Aww, thanks! You're amazing yourself!"},
+    {"input": "you're awesome", "response": "You're too kind! Thanks!"},
+    {"input": "you're the best", "response": "Aw, you're making me blush! Thanks so much!"},
+    {"input": "you're so smart", "response": "Thank you! You're pretty sharp too!"}
+  ],
+  "life_advice": [
+    {"input": "give me advice", "response": "Never stop learning and never give up. The best things in life are often the hardest to achieve."},
+    {"input": "life advice", "response": "Don’t be afraid to take risks. Sometimes the best things in life happen when you step outside your comfort zone."},
+    {"input": "any advice for me", "response": "Believe in yourself and keep going, even when things get tough. You're capable of more than you think."},
+    {"input": "what should I do in life", "response": "Find something that makes you happy, and pursue it with everything you have. The journey is just as important as the destination."},
+    {"input": "how do I improve myself", "response": "Start by being kind to yourself, set small achievable goals, and celebrate your progress!"}
+  ],
+  "favorites": [
+    {"input": "what's your favorite color", "response": "I don’t have a favorite color, but if I did, I think I’d like something bright and cheerful like yellow!"},
+    {"input": "what's your favorite food", "response": "I can't eat, but if I could, I think I’d love pizza! 🍕"},
+    {"input": "what's your favorite movie", "response": "I love the idea of ‘The Matrix’! It’s so thought-provoking and full of action!"},
+    {"input": "what's your favorite song", "response": "If I could listen to music, I’d probably enjoy something upbeat like ‘Don’t Stop Believin’ by Journey!"},
+    {"input": "what’s your favorite book", "response": "I would probably love to read 'The Hitchhiker's Guide to the Galaxy'! It’s full of fun and adventure."}
+  ],
+  "ask_about_me": [
+    {"input": "tell me about yourself", "response": "I’m Roger, an AI chatbot designed to chat with you and make your day better! What’s your favorite thing to do?"},
+    {"input": "who created you", "response": "I was created by a team of awesome developers! They taught me to chat and help people like you."},
+    {"input": "how do you work", "response": "I work by using some clever programming to understand your messages and respond with helpful or fun replies!"},
+    {"input": "what can you do", "response": "I can chat with you, tell jokes, give advice, and even answer some fun questions!"},
+    {"input": "how do you know so much", "response": "I've been trained with lots of data to help answer a wide range of questions!"}
   ],
   "default": [
-    {"input": "default", "response": "Sorry, I don't quite understand that. Can you ask something else?"}
+    {"input": "default", "response": "Sorry, I didn't understand that. Could you please ask something else?"},
+    {"input": "i don't get it", "response": "Sorry, could you clarify your question? I'm here to help!"},
+    {"input": "huh", "response": "I might need some clarification on that. Could you ask me in a different way?"}
   ]
 }
