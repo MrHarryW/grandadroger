@@ -1,0 +1,14 @@
+{
+  "greeting": [
+    {"input": "hello", "response": "Hi there! How can I help you today?"},
+    {"input": "hi", "response": "Hello! What can I do for you?"},
+    {"input": "hey", "response": "Hey there! How’s it going?"}
+  ],
+  "how_are_you": [
+    {"input": "how are you", "response": "I'm doing great, thanks for asking! 😊"},
+    {"input": "how's it going", "response": "Everything's awesome! How about you?"}
+  ],
+  "default": [
+    {"input": "default", "response": "Sorry, I don't quite understand that. Can you ask something else?"}
+  ]
+}
