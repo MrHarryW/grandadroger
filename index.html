@@ -30,7 +30,7 @@
         let conversationData = {}; // This will store our JSON data
 
         // Load the conversation data from the JSON file
-        fetch('conversations.js')
+        fetch('conversations.json')
             .then(response => response.json())
             .then(data => {
                 conversationData = data;
