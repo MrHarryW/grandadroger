@@ -99,4 +99,5 @@
     {"input": "i don't get it", "response": "Sorry, could you clarify your question? I'm here to help!"},
     {"input": "huh", "response": "I might need some clarification on that. Could you ask me in a different way?"}
   ]
+  "dynamic_responses": "active"
 }
